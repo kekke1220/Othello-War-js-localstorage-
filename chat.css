@@ -1,0 +1,44 @@
+.all {
+	margin-top: 0 auto;
+    margin-left: 60px;
+}
+
+#chat {
+	position: absolute;
+	top: 150px;
+    width: 1000px;
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-top: 100px;
+    margin-left: 150px;
+    opacity: 0.7;
+	background-color: steelblue;
+    color: black;
+    font-weight: bold ;
+    font-size: 25px;
+  }
+
+  #chat-top {
+	position: relative;
+  }
+
+  #input {
+	position: absolute;
+	top: 800px;
+    width: 50%;
+    padding: 10px;
+    margin-right: 5px;
+	margin: 30px;
+    border-radius: 10px;
+    left: 280px;
+  }
+
+  #send {
+	position: absolute;
+	top: 825px;
+    padding: 10px;
+    font-weight: bold;
+    color: darkslategrey;
+	left: 1080px;
+  }

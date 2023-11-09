@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="top.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="all">
+
+    <div class="audio1">
+      <!-- audioタグで再生   -->
+      <audio id="myAudio" controls loop>
+          <source src="VSQSE_0373_japanese_battle_atomsphere_02.mp3" type="audio/mp3">
+      </audio>
+    </div><!-- .audio1 -->
+
+     <div id="top-photo"><img src="無題 (1)のコピー.png" alt="AIフォト" width="1000px" height="1000px"></div>
+      <div class="container">
+
+        <a href="http://127.0.0.1:5500/index.html" class="button">
+          <div class="button__cloud1"></div>
+          <div class="button__cloud2"></div>
+          <div class="button__inner">
+            <span class="button__text">いざ、出陣！</span>
+            <div class="button__pattern"></div>
+          </div>
+        </a>
+      
+       </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+
+$(document).ready(function() {
+    var audioElement = $("#myAudio")[0];
+    audioElement.play();
+});
+
+    
+  </script>
+
+
+</body>
+</html>
